@@ -8224,11 +8224,11 @@ h1, h2, h3, h4, h5,
     opacity: .5;
     background: #000000; }
   .hero-wrap.hero-wrap-2 {
-    height: 700px; }
+    height: 400px; }
     .hero-wrap.hero-wrap-2 .overlay {
       opacity: .3; }
     .hero-wrap.hero-wrap-2 .slider-text {
-      height: 700px; }
+      height: 352px; }
 
 @-webkit-keyframes blinker {
   from {
@@ -8861,11 +8861,17 @@ textarea.form-control {
     color: #000000;
     position: relative; }
   .ftco-footer .opening-hours h4 {
-    color: #03045e;
+    color: #fff;
     font-size: 16px; }
   .ftco-footer .opening-hours p span {
     color: rgba(255, 255, 255, 0.9); }
-
+.fixed-img {
+  
+  height: 200px;        /* 👈 set your desired height */
+  width: 100%;          /* keeps full width */
+  object-fit: contain;    
+  border-radius: 8px;   /* optional for rounded corners */
+}
 .ftco-footer-social li {
   list-style: none;
   margin: 0 10px 0 0;
@@ -8993,7 +8999,11 @@ textarea.form-control {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center; }
-
+.owl-carousel .owl-stage{
+  /* transition: all; */
+    /* width: 1900px; */
+    transform: translate3d(0px, 0px, 0px) !important;
+}
 .testimony-section {
   position: relative; }
   .testimony-section .owl-carousel {
