@@ -8158,6 +8158,9 @@ h1, h2, h3, h4, h5,
         color: #fff !important; }
     .ftco-navbar-light.scrolled .nav-item.cta.cta-colored span {
       border-color: #03045e; }
+      .blog-entry .text p{
+        font-size: 12px !important;
+      }
     @media (max-width: 991.98px) {
       .ftco-navbar-light.scrolled .navbar-nav {
         background: none;
